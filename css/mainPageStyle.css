@@ -1,0 +1,22 @@
+body {
+	background-image: url(../pics/FaceMain.jpg);
+	background-size: 100%;
+}
+
+#firstName,#lastName,#email,#pass,#emailGet,#passGet {
+	position: absolute;
+	left: 100px;
+}
+
+
+
+input[type="button"]{
+	border: 1px ;
+	font-size: 10px;
+	color:black;
+	padding: 5px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	border-radius: 6px;
+	
+}

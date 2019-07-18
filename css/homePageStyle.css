@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+.nav {
+	background: #101570;
+	height: 60px;
+	display: inline-block;
+	width: 100%;
+}
+
+.nav li {
+	float: left;
+	list-style-type: none;
+	position: relative;
+}
+
+.nav li a {
+	font-size: 16px;
+	color: white;
+	display: block;
+	line-height: 60px;
+	padding: 0 26px;
+	text-decoration: none;
+	border-left: 1px solid #2e2e2e;
+	font-family: Montserrat, sans-serif;
+	text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+#settings a {
+	padding: 6px;
+}
+
+#search {
+	width: 357px;
+	margin: 4px;
+}
+
+#search_text {
+	width: 297px;
+	padding: 15px 0 15px 20px;
+	font-size: 16px;
+	font-family: Montserrat, sans-serif;
+	border: 0 none;
+	height: 52px;
+	margin-right: 0;
+	color: #000000;
+	outline: none;
+	background: #ffffff;
+	float: left;
+	box-sizing: border-box;
+	transition: all 0.15s;
+}
+
+#search_text:focus {
+	background: rgb(64, 151, 119);
+}
+
+#search_button {
+	border: 0 none;
+	background: #296a74 url("../pics/searchIcon.png") center no-repeat;
+	width: 60px;
+	float: left;
+	padding: 0;
+	text-align: center;
+	height: 52px;
+	cursor: pointer;
+}
+
+.profileLeftSideContent{
+	width:194px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	height:200px;
+	border:1px;
+}
+.post_button{
+	
+	font-size : 45px;
+	color : #ffffff;
+	padding : 1px 17px;
+	background : #7e7be3;
+	background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7e7be3), color-stop(100%,#00060a));
+	background : -moz-linear-gradient(top, #7e7be3 0%, #00060a 100%);
+	background : -webkit-linear-gradient(top, #7e7be3 0%, #00060a 100%);
+	background : -o-linear-gradient(top, #7e7be3 0%, #00060a 100%);
+	background : -ms-linear-gradient(top, #7e7be3 0%, #00060a 100%);
+	background : linear-gradient(top, #7e7be3 0%, #00060a 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#7e7be3', endColorstr='#00060a',GradientType=0 );
+
+}
+.post_text{
+	
+}
+.rightCOntainer{
+	float:right;
+	padding-right: 80px;
+}
+.postForm{
+	width: 560px;
+	height: 60px;
+	background-color: #F3F6F9;
+	
+}
+.profilePost{
+	width: 560px;
+	height: 414px;
+	background-color: #DCE5EE;
+	padding: 5px;
+}
+.textHeader{
+	background-color: #F3F6F9;
+	width: 190px;
+	height: 15px;
+	padding: 5px;
+	border-bottom: 1px solid #DCE5EE;
+	font-weight: 600;
+}
+.leftCOntainer{
+	float:left;
+	padding-left: 80px;
+}
+.images{
+	padding: 1px;
+}
+input[type="button"]{
+	border: 1px ;
+	font-size: 10px;
+	background-color:aqua;
+	color:black;
+	padding: 5px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	border-radius: 6px;
+	
+}
